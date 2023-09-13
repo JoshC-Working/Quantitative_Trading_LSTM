@@ -1,6 +1,6 @@
 # Quantitative_Trading_LSTM
 
-## Model and Research
+## Model & Research
 
 
 # wqweqweqweqweq
