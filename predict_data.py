@@ -43,6 +43,7 @@ def predict_data(stock, interval, delay):
 
     loaded_model = load_model(path)
     predictions = loaded_model.predict(x_evaluation)
+    predictions = scaler.inverse_transform(predictions)
 
     return predictions
 
