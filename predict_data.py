@@ -42,8 +42,8 @@ def predict_data(stock, interval, delay):
 
     # Transform into Array type and then reshape for Keras Model
     x_evaluation = np.array(x_evaluation)
-    x_evaluation = x_evaluation.reshape(
-        x_evaluation.shape[0], x_evaluation.shape[1], 1)
+    i,j = x_evaluation.shape
+    x_evaluation = np.reshape(x_evaluation,(i,j,1))      
 
     # Build the path of the place to load the model
     root_dir = os.getcwd()

@@ -1,0 +1,7 @@
+
+Stock:                     AAPL
+days of prediction:        8
+LSTM Cells for layer1:     10
+Epoches:                   1
+batch_size:                1
+days_window for training:  40
