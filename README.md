@@ -6,7 +6,8 @@ Therefore, instead of achieving highly efficient methods, we tend to perform a j
 
 <p> The project will mainly be dividied into two parts: price prediction with LSTM model and algo-trading.
 
-
+## Method of price predictionq
+LSTM will be used widely in this project although we desire to try other ways for later
 ## Structure of the project
 ### Model & Research
 In this directory, we will show the process how we train the best-fit LSTM model for each target stock. And the result will be stored to Resources directory
