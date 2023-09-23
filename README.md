@@ -7,7 +7,8 @@ Therefore, instead of achieving highly efficient methods, we tend to perform a j
 
 
 
-#Structure of the project
+# Structure of the project
+
 ### Model & Research
 In this directory, we will show how to train the best-fit LSTM model for each target stock. And the result will be stored to Resources directory
 
