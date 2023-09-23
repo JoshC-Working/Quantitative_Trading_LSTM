@@ -23,8 +23,6 @@ LSTM is a improved variant of RNN, specialised in learning data in sequence, suc
 
 ### Use efficiently
 
-
-
 ## Structure of the project
 ### Model & Research
 In this directory, we will show the process how we train the best-fit LSTM model for each target stock. And the result will be stored to Resources directory
