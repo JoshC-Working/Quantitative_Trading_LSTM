@@ -12,8 +12,7 @@ With the aim to gain a deeper understanding and direction to know more about qua
 <p>A few reasones to use LSTM:
 <ol>
   <li>Long-term dependencies<br>
-      qwewqe
-  </li>
+      qwewqe</li>
   <li></li>
 </ol>
 
