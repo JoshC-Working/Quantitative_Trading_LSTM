@@ -6,10 +6,10 @@ With the aim to gain a deeper understanding and direction to know more about qua
 
 <p> The project will mainly be dividied into two parts: price prediction with LSTM model and algo-trading.
 
-## Method of price predictionq
+## Method of Price Prediction
 <p>LSTM will be used widely in this project for predicting stock closing price although we desire to try other ways later<br>
 
-### A few reasones to use LSTM:
+### A Few Reasones to Use LSTM:
 LSTM is a improved variant of RNN, specialised in learning data in sequence, such as time series data. Its combination of forget gate, input gate and output gate could catch the long-term pattern effectively.
 Also, please note that time series data can be divided into 4 parts: <b>Trend, Cycle, Noise 
 
