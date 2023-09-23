@@ -21,7 +21,7 @@ LSTM is a improved variant of RNN, specialised in learning data in sequence, suc
 And, we will only split selected historical data into training and test dataset, in which the test dataset will be the one closer to the present</p>
 <img src="README_source/pic1.jpg" alt="替代文本" style="width: 1500%; height: auto;">
 
-To make sure that LSTM model do learn a productive pattenrn in the training process and there is enough training and testing data, we only select stocks with a        final monotone trend of closing price of more than 5 years as target.<br> 
+To make sure that LSTM model do learn a productive pattenrn in the training process and there is enough training and testing data, we only select stocks with a        final monotone trend of closing price of more than 8 years as target.<br> 
 Also, we train the model only using the monotone trend for every target stock.
 
 
