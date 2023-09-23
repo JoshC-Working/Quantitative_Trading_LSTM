@@ -11,7 +11,7 @@ With the aim to gain a deeper understanding and direction to know more about qua
 
 ### A Few Reasones to Use LSTM:
 LSTM is a improved variant of RNN, specialised in learning data in sequence, such as time series data. Its combination of forget gate, input gate and output gate could catch the long-term pattern effectively.<br>
-Also, please note that time series data can be divided into 4 parts: <b>Trend, Cycle, Noise 
+Also, please note that time series data can be divided into 4 parts: <b>Trend, Cycle, Seasonality, Noise 
 
 
 <ol>
