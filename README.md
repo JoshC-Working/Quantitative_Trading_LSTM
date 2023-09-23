@@ -4,7 +4,7 @@
 With the aim to gain a deeper understanding and direction to know more about quant trading, we would like to build a project including price prediction, backtesting and algo-trading to identify the major obstacles in it.<br><br>
 Therefore, instead of achieving highly efficient methods, we tend to perform a joruney of how we discover the unknown in quant trading.
 
-The project will mainly be dividied into two parts: price prediction with LSTM model and algo-trading.
+<p> The project will mainly be dividied into two parts: price prediction with LSTM model and algo-trading.
 
 
 ## Structure of the project
