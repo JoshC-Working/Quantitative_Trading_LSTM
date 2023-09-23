@@ -1,6 +1,9 @@
 # Quantitative_Trading_LSTM
 ## Introduction
-This 
+(This is a Quant Project collaborated by two sophomore students, not yet completed)
+With the aim to gain a deeper understanding and direction to know more about quant trading, we would like to build a project including price prediction, backtesting and algo-trading to identify the major obstacles in it.
+Therefore, instead of achieving highly efficient methods, we tend to perform a joruney of how we discover the unknown in quant trading.
+
 
 ## Model & Research
 In this directory, we will show how to train the best-fit LSTM model for each target stock. And the result will be stored to Resources directory
