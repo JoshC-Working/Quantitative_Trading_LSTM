@@ -10,11 +10,19 @@ With the aim to gain a deeper understanding and direction to know more about qua
 <p>LSTM will be used widely in this project for predicting stock closing price although we desire to try other ways later<br>
 
 <p>A few reasones to use LSTM:
+LSTM is a improved variant of RNN, specialised in learning data in sequence, such as time series data. Its combination of forget gate, input gate and output gate could catch the long-term pattern effectively.
+
+
+### Long Term
 <ol>
   <li>Long-term dependencies<br>
-      qwewqe</li>
+      By </li>
+  <li></li>
   <li></li>
 </ol>
+
+### Use efficiently
+
 
 
 ## Structure of the project
