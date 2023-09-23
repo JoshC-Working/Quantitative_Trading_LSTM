@@ -17,8 +17,8 @@ LSTM is a improved variant of RNN, specialised in learning data in sequence, suc
 
 
 ### Application of LSTM model:
-At this stage, we will only use the historical closing price as the input during the training proess.<br>
-And, we will only split selected historical data into training and test dataset, in which the test dataset will be the one closer to the present
+<p>At this stage, we will only use the historical closing price as the input during the training proess.<br>
+And, we will only split selected historical data into training and test dataset, in which the test dataset will be the one closer to the present</p>
 
 
 <img src="README_source/pic1.jpg" alt="替代文本" style="width: 1500%; height: auto;">
