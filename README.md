@@ -24,9 +24,11 @@ LSTM is a improved variant of RNN, specialised in learning data in sequence, suc
 ### Application of LSTM model:
 At this stage, we will only use the historical closing price as the input during the training proess.<br>
 And, we will only split selected historical data into training and test dataset, in which the test dataset will be the one closer to the present 
-To make sure that LSTM model do learn a pattenrn in the training process and there is enough training and testing data, we mainly select stocks with a monotone trend of closing price of more than 5 years. 
+
 
 <img src="README_source/output.jpg" alt="替代文本" style="width: 1500%; height: auto;">
+To make sure that LSTM model do learn a productive pattenrn in the training process and there is enough training and testing data, we only select stocks with a final monotone trend of closing price of more than 5 years as target. Also, we train the model only using the monotone trend for every target stock.
+
 
 
 
