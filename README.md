@@ -21,7 +21,11 @@ Also, please note that time series data can be divided into 4 parts: <b>Trend, C
   <li></li>
 </ol>
 
-### Use efficiently
+### Application of LSTM model
+At this stage, we will only use the historical closing price as the input during the training proess.<br>
+Instead of spliting the historical data
+To make sure that LSTM model do learn a pattenrn in the training process and there is enough training and testing data, we mainly select stocks with a monotone trend of closing price of more than 5 years. 
+
 
 
 
