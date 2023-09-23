@@ -14,12 +14,7 @@ LSTM is a improved variant of RNN, specialised in learning data in sequence, suc
 <p> Also, please note that time series data can be divided into 4 parts: <b>Trend, Cycle, Seasonality, Noise</b> 
 
 
-<ol>
-  <li>Long-term dependencies<br>
-      By </li>
-  <li></li>
-  <li></li>
-</ol>
+
 
 ### Application of LSTM model:
 At this stage, we will only use the historical closing price as the input during the training proess.<br>
