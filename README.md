@@ -26,8 +26,9 @@ At this stage, we will only use the historical closing price as the input during
 And, we will only split selected historical data into training and test dataset, in which the test dataset will be the one closer to the present 
 
 
-<img src="README_source/output.jpg" alt="替代文本" style="width: 1500%; height: auto;">
+<img src="README_source/pic1.jpg" alt="替代文本" style="width: 1500%; height: auto;">
 To make sure that LSTM model do learn a productive pattenrn in the training process and there is enough training and testing data, we only select stocks with a final monotone trend of closing price of more than 5 years as target. Also, we train the model only using the monotone trend for every target stock.
+<img src="README_source/pic2.jpg" alt="替代文本" style="width: 1500%; height: auto;">
 
 
 
