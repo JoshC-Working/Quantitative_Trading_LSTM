@@ -7,7 +7,15 @@ With the aim to gain a deeper understanding and direction to know more about qua
 <p> The project will mainly be dividied into two parts: price prediction with LSTM model and algo-trading.
 
 ## Method of price predictionq
-LSTM will be used widely in this project although we desire to try other ways for later
+<p>LSTM will be used widely in this project for predicting stock closing price although we desire to try other ways later<br>
+
+<p>A few reasones to use LSTM:
+<ol>
+  <li></li>
+  <li></li>
+</ol>
+
+
 ## Structure of the project
 ### Model & Research
 In this directory, we will show the process how we train the best-fit LSTM model for each target stock. And the result will be stored to Resources directory
