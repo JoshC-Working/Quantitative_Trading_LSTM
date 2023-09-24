@@ -38,9 +38,9 @@ And, we will only use the historical closing price as the input during the train
 <p>we split selected historical data into training and test dataset, in which the test dataset will be the one closer to the present</p>
 <img src="README_source/pic1.jpg" alt="替代文本" style="width: 1500%; height: auto;">
 
-<p>Then, there will be two steps.<br><br>
+<p>Then, there will be two steps.<br>
 
-Firstly, we do train the model with different combinations of hyperparameters, and pick the one that its prediction holds the least value of loss indicator (e.g. RMSE. MSE)<br>
+Firstly, we do train models with different combinations of hyperparameters, and pick the one that its prediction holds the least value of loss indicator (e.g. RMSE. MSE )<br>
 
 After finding the optimised set of hyperparameters, we will train several models with it and pick the best one.</>
 
