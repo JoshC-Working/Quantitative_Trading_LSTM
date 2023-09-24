@@ -32,8 +32,8 @@ To ensure that LSTM model do learn a productive and solid pattenrn in the traini
 <img src="README_source/pic2.jpg" alt="替代文本" style="width: 1500%; height: auto;">
 
 ### 3. Learn the closing price of a stock by LSTM model
-<p>LSTM will be used widely in this project for predicting stock closing price although we desire to try other ways later<br>
-At this stage, we will only use the historical closing price as the input during the training proess.</p>
+<p>Please note that LSTM will be used widely in this project for predicting stock closing price although we desire to try other ways later<br>
+And, we will only use the historical closing price as the input during the training proess.</p>
 
 <p>we split selected historical data into training and test dataset, in which the test dataset will be the one closer to the present</p>
 <img src="README_source/pic1.jpg" alt="替代文本" style="width: 1500%; height: auto;">
