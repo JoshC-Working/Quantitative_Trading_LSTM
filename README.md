@@ -5,10 +5,7 @@ With the aim to gain a deeper understanding and direction to know more about qua
 <p >Therefore, instead of achieving highly efficient methods, we tend to perform a joruney of how we discover the unknown in quant trading.
 
 <p> The project will mainly be dividied into two parts: price prediction with LSTM model and algo-trading.</p>
-
-
-
-
+<br>
 ## Structure of the project
 ### 1. Model & Research
 In this directory, we will show the process how we train the best-fit LSTM model for each target stock. And the optimised model will be stored in "Resources".<br>
