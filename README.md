@@ -62,7 +62,7 @@ There are three strategies we would like to try:
        Usually, this time lag will be set to 8 days in this project because larget time lag may lead to invalid pattern for the LSTM model to learn.
        With the set of foreseeable closing price for 8 days, long/ short position could be opened and finished<br>
        </li>
-       <li> Single Trade per Day
+       <li> Single Trade per Day<br>
               If the opening price of the day is a certain percentage lower/higher than the predicted closing price, we open a long/short position respectively at the opening of the market and end the position at the end.
        </li>
        <li>High Frequency Trade<br>
@@ -72,7 +72,7 @@ There are three strategies we would like to try:
 </ol>
 
 
-Also, we are going to implement RSI indicator on determining the buy and sell moments.<br>
+Also, we are going to implement RSI indicator on determining the time to stark a long/short position.<br>
 It is because noise in time series data is unpredictable, no matter how accurate our models are. So we decide to use RSI to minimize the risk of buying/selling. 
 
 
