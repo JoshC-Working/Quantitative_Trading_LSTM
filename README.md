@@ -9,8 +9,10 @@ With the aim to gain a deeper understanding and direction to know more about qua
 ## Process 
 
 ### 1. Stock Filtering
-There are two perspective:
-<p>1.1 Financial Reasoning </p>
+<p>There are two perspective:</p>
+<p>1.1 Financial Reasoning 
+      ewqeqwe</p>
+
 
 
 <p>1.2 Sufficient Input for training a model<br>
