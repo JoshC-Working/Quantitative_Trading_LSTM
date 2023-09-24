@@ -10,7 +10,9 @@ With the aim to gain a deeper understanding and direction to know more about qua
 
 ### 1. Stock Filtering
 <p>There are two perspective:</p>
-<p>1.1 Financial Reasoning 
+<p>1.1 Financial Reasoning<br>
+       Since
+      
       ewqeqwe</p>
 
 
