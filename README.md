@@ -7,11 +7,11 @@ With the aim to gain a deeper understanding and direction to know more about qua
 <p> The project will mainly be dividied into two parts: price prediction with LSTM model and algo-trading.</p>
 
 ## Structure of the project
-### Model & Research
+### 1. Model & Research
 In this directory, we will show the process how we train the best-fit LSTM model for each target stock. And the optimised model will be stored in "Resources".<br>
 You may visit any directory inside "Model & Research" to see how we gain the optimised model for a target stock. 
 
-### Resources
+### 2. Resources
 A place to store the best-models trained for every target stock. A functionin in "predict_data.py" is designed to gain the latest set of predicted closing price of a stock by accessing trained models here.
 
 We want to train the model to fit to the test data.
