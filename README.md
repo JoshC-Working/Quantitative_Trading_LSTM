@@ -6,6 +6,16 @@ With the aim to gain a deeper understanding and direction to know more about qua
 
 <p> The project will mainly be dividied into two parts: price prediction with LSTM model and algo-trading.
 
+## Process 
+<ol>
+  <li>Stock Filtering</li>
+  <li>Select Suitable Historical Data</li>
+  <li>Find out best-fit hyperparameters of LSTM model for every single target stock</li>
+  <li>Pick the most accurate model by regenerating with the set of the optimised hyperparameters </li>
+  <li>Trade with different strategy</li>
+</ol>
+
+<P> 
 ## Method of Price Prediction
 <p>LSTM will be used widely in this project for predicting stock closing price although we desire to try other ways later<br>
 
