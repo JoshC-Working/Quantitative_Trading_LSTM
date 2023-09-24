@@ -27,7 +27,7 @@ Because price fluctuations caused by <ins><b>public opinion</b></ins> or <b><ins
 To ensure that LSTM model do learn a productive and solid pattenrn in the training process and there is enough training and testing data, we only select stocks with its last monotone trend of closing price of more than ~8 years as target.</p>
 
 ### 2. Select Suitable Historical Data
-<p>As mentioned, we train the model by only using the last monotone trend for every target stock, like below:</p>
+<p>As mentioned, we train the model by only using the last monotone trend for every target stock, like below:<br></p>
 
 <img src="README_source/pic2.jpg" alt="替代文本" style="width: 1500%; height: auto;">
 
