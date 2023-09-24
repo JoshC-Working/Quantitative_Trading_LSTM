@@ -25,7 +25,7 @@ Because price fluctuations caused by <ins><b>public opinion</b></ins> or <b><ins
        
 <p>Therefore, our target stock should fulfil the following conditions:
 <ol>
-       <li>relatively low to medium market Capital</li>
+       <li>relatively low to medium market capital (low level of awareness from the public)</li>
        <li>high institutional investor ownership</li>
        <li>sufficient volume or price movement </li>
 </ol>
