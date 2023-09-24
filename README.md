@@ -53,11 +53,9 @@ After finding the optimised set of hyperparameters for a stock, we will train se
 LSTM is a improved variant of RNN, specialised in learning data in sequence, such as time series data. Its combination of forget gate, input gate and output gate could catch the long-term pattern effectively.
 <p> Also, please note that time series data can be divided into 4 parts: <b>Trend, Cycle, Seasonality, Noise</b> 
 
-
-
-
 ### Application of LSTM model:
-W
+<p>I highly recommend going to the research file of any stock to know more about how we train a model and get the predicted price. It will be more clean and easier to explain with code.</p>
+
 
 
 To make sure that LSTM model do learn a productive pattenrn in the training process and there is enough training and testing data, we only select stocks with a        final monotone trend of closing price of more than 8 years as target.<br> 
