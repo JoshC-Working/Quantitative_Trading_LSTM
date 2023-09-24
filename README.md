@@ -8,7 +8,7 @@ With the aim to gain a deeper understanding and direction to know more about qua
 
 ## Process 
 
-### Stock Filtering
+### 1. Stock Filtering
 
 <ol>
   <li>Stock Filtering</li>
