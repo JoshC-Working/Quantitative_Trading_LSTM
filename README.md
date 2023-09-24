@@ -10,10 +10,11 @@ With the aim to gain a deeper understanding and direction to know more about qua
 
 ### 1. Stock Filtering
 There are two perspective:
-1.1 Financial
+<p>1.1 Financial Reasoning </p>
 
-1.2 Sufficient Input for training a model
-To ensure that LSTM model do learn a productive and solid pattenrn in the training process and there is enough training and testing data, we only select stocks with its last monotone trend of closing price of more than ~8 years as target.<br> 
+
+<p>1.2 Sufficient Input for training a model<br>
+To ensure that LSTM model do learn a productive and solid pattenrn in the training process and there is enough training and testing data, we only select stocks with its last monotone trend of closing price of more than ~8 years as target.</p>
 
 ### 2. Select Suitable Historical Data
 
