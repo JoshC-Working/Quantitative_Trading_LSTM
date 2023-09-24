@@ -28,6 +28,7 @@ To ensure that LSTM model do learn a productive and solid pattenrn in the traini
 
 ### 2. Select Suitable Historical Data
 <p>As mentioned, we train the model by only using the last monotone trend for every target stock, like below:</p>
+
 <img src="README_source/pic2.jpg" alt="替代文本" style="width: 1500%; height: auto;">
 
 ### 3. Pick the most accurate model by regenerating with the set of the optimised hyperparameter
