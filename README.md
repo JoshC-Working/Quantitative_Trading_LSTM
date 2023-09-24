@@ -8,10 +8,11 @@ With the aim to gain a deeper understanding and direction to know more about qua
 
 ## Structure of the project
 ### Model & Research
-In this directory, we will show the process how we train the best-fit LSTM model for each target stock. And the result will be stored to Resources directory
+In this directory, we will show the process how we train the best-fit LSTM model for each target stock. And the optimised model will be stored in "Resources".<br>
+You may visit any directory inside "Model & Research" to see how we gain the optimised model for a target stock. 
 
 ### Resources
-The best-models trained for every target stock will be placed here. A function is designed to gain the latest sets of predicted closing price of a stock by accessing its best-models here.
+A place to store the best-models trained for every target stock. A functionin in "predict_data.py" is designed to gain the latest set of predicted closing price of a stock by accessing trained models here.
 
 We want to train the model to fit to the test data.
 
