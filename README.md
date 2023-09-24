@@ -7,7 +7,9 @@ With the aim to gain a deeper understanding and direction to know more about qua
 <p> The project will mainly be dividied into two parts: price prediction with LSTM model and algo-trading.</p>
 
 ## Process 
+
 ### Stock Filtering
+
 <ol>
   <li>Stock Filtering</li>
   <li>Select Suitable Historical Data</li>
