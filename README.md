@@ -31,11 +31,14 @@ To ensure that LSTM model do learn a productive and solid pattenrn in the traini
 
 <img src="README_source/pic2.jpg" alt="替代文本" style="width: 1500%; height: auto;">
 
-### 3. Pick the most accurate model by regenerating with the set of the optimised hyperparameter
+### 3. Learn the closing price of a stock by LSTM model
 <p>LSTM will be used widely in this project for predicting stock closing price although we desire to try other ways later<br>
 At this stage, we will only use the historical closing price as the input during the training proess.</p>
 
-<p>There are two steps in this stage.<br><br>
+<p>we split selected historical data into training and test dataset, in which the test dataset will be the one closer to the present</p>
+<img src="README_source/pic1.jpg" alt="替代文本" style="width: 1500%; height: auto;">
+
+<p>Then, there will be two steps.<br><br>
 
 Firstly, we do train the model with different combinations of hyperparameters, and pick the one that its prediction holds the least value of loss indicator (e.g. RMSE. MSE)<br>
 
@@ -56,8 +59,7 @@ LSTM is a improved variant of RNN, specialised in learning data in sequence, suc
 
 ### Application of LSTM model:
 <p>
-And, we will only split selected historical data into training and test dataset, in which the test dataset will be the one closer to the present</p>
-<img src="README_source/pic1.jpg" alt="替代文本" style="width: 1500%; height: auto;">
+
 
 To make sure that LSTM model do learn a productive pattenrn in the training process and there is enough training and testing data, we only select stocks with a        final monotone trend of closing price of more than 8 years as target.<br> 
 
