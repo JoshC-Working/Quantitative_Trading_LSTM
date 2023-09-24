@@ -72,8 +72,8 @@ There are three strategies we would like to try:
 </ol>
 
 
-Also, we are going to implement RSI indicator on determining the time to stark a long/short position.<br>
-It is because noise in time series data is unpredictable, no matter how accurate our models are. So we decide to use RSI to minimize the risk of buying/selling. 
+Also, we are going to implement RSI indicator on determining the time to start a long/short position.<br>
+It is because noise in time series data is unpredictable, no matter how accurate our models are. So we decide to use RSI to minimize the risk. 
 
 
 ## Method of Price Prediction
