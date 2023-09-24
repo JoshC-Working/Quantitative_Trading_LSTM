@@ -34,7 +34,7 @@ To ensure that LSTM model do learn a productive and solid pattenrn in the traini
 ### 3. Pick the most accurate model by regenerating with the set of the optimised hyperparameter
 <p>There are two steps in this stage.<br><br>
 
-Firstly, we do train the model with different combinations of hyperparameters, and pick the one that its prediction holds the least value of loss indicator (e.g. RMSE. MSE)<br><br>
+Firstly, we do train the model with different combinations of hyperparameters, and pick the one that its prediction holds the least value of loss indicator (e.g. RMSE. MSE)<br>
 
 After finding the optimised set of hyperparameters, we will train several models with it and pick the best one.</>
 
