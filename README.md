@@ -6,6 +6,15 @@ With the aim to gain a deeper understanding and direction to know more about qua
 
 <p> The project will mainly be dividied into two parts: price prediction with LSTM model and algo-trading.</p>
 
+## Structure of the project
+### Model & Research
+In this directory, we will show the process how we train the best-fit LSTM model for each target stock. And the result will be stored to Resources directory
+
+### Resources
+The best-models trained for every target stock will be placed here. A function is designed to gain the latest sets of predicted closing price of a stock by accessing its best-models here.
+
+We want to train the model to fit to the test data.
+
 ## Process 
 
 ### 1. Stock Filtering
@@ -57,23 +66,3 @@ LSTM is a improved variant of RNN, specialised in learning data in sequence, suc
 <p>I highly recommend going to the research file of any stock to know more about how we train a model and get the predicted price. It will be more clean and easier to explain with code.</p>
 
 
-
-To make sure that LSTM model do learn a productive pattenrn in the training process and there is enough training and testing data, we only select stocks with a        final monotone trend of closing price of more than 8 years as target.<br> 
-
-
-
-  
-
-
-
-
-
-
-## Structure of the project
-### Model & Research
-In this directory, we will show the process how we train the best-fit LSTM model for each target stock. And the result will be stored to Resources directory
-
-### Resources
-The best-models trained for every target stock will be placed here. A function is designed to gain the latest sets of predicted closing price of a stock by accessing its best-models here.
-
-We want to train the model to fit to the test data.
