@@ -55,6 +55,25 @@ After finding the optimised set of hyperparameters for a stock, we will train se
 
 ### 4. Trade with different strategy
 
+There are three strategies we would like to try:
+<ol>
+       <li>Swing Trade<br>
+       By using time lag prediction, the time lag equals to how many days of predicted closing price we could gain.<br>
+       Usually, this time lag will be set to 8 days in this project because larget time lag may lead to invalid pattern for the LSTM model to learn.
+       With the set of foreseeable closing price for 8 days, long/ short position could be opened and finished</ol>li>
+       <li> Single Trade per Day
+              If the opening price of the day is a certain percentage lower/higher than the predicted closing price, we open a long/short position respectively at the opening of the market and end the position at the end.
+       </li>
+       <li>High Frequency Trade<br>
+       Unfortunately, since we pay no capital on this project, it is hard for us to gain pruce trend in high frequency as historical data to train our model.<br>
+       But the logic for predicting the price in high frequency could be achieved by using LSTM model with by little adjustment
+       </li>
+</ol>
+
+
+Also, we are going to implement RSI indicator on determining the buy and sell moments.<br>
+It is because noise in time series data is unpredictable, no matter how accurate our models are. So we decide to use RSI to minimize the risk of buying/selling. 
+
 
 ## Method of Price Prediction
 <p>
