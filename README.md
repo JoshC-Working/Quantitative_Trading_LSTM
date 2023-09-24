@@ -10,6 +10,12 @@ With the aim to gain a deeper understanding and direction to know more about qua
 
 ### 1. Stock Filtering
 
+### 2. Select Suitable Historical Data
+
+### 3. Pick the most accurate model by regenerating with the set of the optimised hyperparameter
+
+### 4. Trade with different strategy
+
 <ol>
   <li>Stock Filtering</li>
   <li>Select Suitable Historical Data</li>
