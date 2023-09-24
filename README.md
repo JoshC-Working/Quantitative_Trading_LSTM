@@ -60,7 +60,8 @@ There are three strategies we would like to try:
        <li>Swing Trade<br>
        By using time lag prediction, the time lag equals to how many days of predicted closing price we could gain.<br>
        Usually, this time lag will be set to 8 days in this project because larget time lag may lead to invalid pattern for the LSTM model to learn.
-       With the set of foreseeable closing price for 8 days, long/ short position could be opened and finished</li>
+       With the set of foreseeable closing price for 8 days, long/ short position could be opened and finished<br>
+       </li>
        <li> Single Trade per Day
               If the opening price of the day is a certain percentage lower/higher than the predicted closing price, we open a long/short position respectively at the opening of the market and end the position at the end.
        </li>
