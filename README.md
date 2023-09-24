@@ -11,9 +11,15 @@ With the aim to gain a deeper understanding and direction to know more about qua
 ### 1. Stock Filtering
 <p>There are two perspective:</p>
 <p>1.1 Financial Reasoning<br>
-       Since
-      
-      ewqeqwe</p>
+Because price fluctuations caused by public opinion or breaking news cannot be predicted by machine learning with historical data, I would like to select stocks with low public concern or high institutional investor ownership. Meanwhile, we are looking for stocks with high volatility to ensure a certain amount of shortfall.<br>
+       
+Therefore, our target stock should fulfil the following conditions:
+<ol>
+       <li>relatively low to medium market Capital</li>
+       <li>high institutional investor ownership</li>
+       <li>sufficient volume or price movement </li>
+</ol>
+</p>
 
 
 
