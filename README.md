@@ -1,4 +1,5 @@
 # Quantitative_Trading_LSTM
+(written by JoshC)
 ## Introduction
 (This project is collaborated by two sophomore students, not yet completed)<br><br>
 With the aim to gain a deeper understanding and direction to know more about quant trading, we would like to build a project including price prediction, backtesting and algo-trading to identify the major obstacles in it.
