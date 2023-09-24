@@ -41,7 +41,7 @@ And, we will only use the historical closing price as the input during the train
 <p>Then, there will be two steps.<br>
 Firstly, we do train models with different combinations of hyperparameters, and pick the one that its prediction holds the least value of loss indicator (e.g. RMSE. MSE )<br>
 
-After finding the optimised set of hyperparameters, we will train several models with it and pick the best one.</>
+After finding the optimised set of hyperparameters for a stock, we will train several models with it and pick the best one for predicting the future closing price during the trading session.</>
 
 ### 4. Trade with different strategy
 
