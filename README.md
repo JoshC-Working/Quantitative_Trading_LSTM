@@ -2,10 +2,10 @@
 (written by JoshC)
 ## Introduction
 (This project is collaborated by two sophomore students, not yet completed)<br><br>
-With the aim to gain a deeper understanding and direction to know more about quant trading, we would like to build a project including price prediction, backtesting and algo-trading to identify the major obstacles in it.
-<p >Therefore, instead of achieving highly efficient methods, we tend to perform a joruney of how we discover the unknown in quant trading.
+With the aim to gain a deeper understanding and direction to know more about quant trading, we would like to build a project including price prediction, back-testing and algo-trading to identify the major obstacles in it.
+<p >Therefore, instead of achieving highly efficient methods, we tend to perform a journey of how we discover the unknown in quant trading.
 
-<p> The project will mainly be dividied into two parts: price prediction with LSTM model and algo-trading.<br></p>
+<p> The project will mainly be divided into two parts: price prediction with LSTM model and algo-trading.<br></p>
 
 ## Structure of the project
 ### 1. Model & Research
