@@ -9,8 +9,8 @@ With the aim to gain a deeper understanding and direction to know more about qua
 
 ## Structure of the project
 ### 1. Model & Research
-In this directory, we will show the process how we train the best-fit LSTM model for each target stock. And the optimized model will be stored in "Resources".<br>
-You may visit any directory inside "Model & Research" to see how we gain the optimised model for a target stock. 
+In this directory, we will show the process of how we train the best-fit LSTM model for each target stock. And the optimized model will be stored in "Resources".<br>
+You may visit any directory inside "Model & Research" to see how we gain the optimized model for a target stock. 
 
 ### 2. Resources
 A place to store the best models trained for every target stock. A function in "predict_data.py" is designed to gain the latest set of predicted closing price of a stock by accessing trained models here.
@@ -46,20 +46,20 @@ To ensure that LSTM model does learn a productive and solid pattern in the train
 <p>Please note that LSTM will be used widely in this project for predicting stock closing price although we desire to try other ways later<br>
 And, we will only use the historical closing price as the input during the training process.</p>
 
-<p>we split selected historical data into training and test datasets, the test dataset will be the one closer to the present</p>
+<p>We split selected historical data into training and test datasets, the test dataset will be the one closer to the present</p>
 <img src="README_source/pic1.jpg" alt="替代文本" style="width: 1500%; height: auto;">
 
 <p>Then, there will be two steps.<br>
-Firstly, we do train models with different combinations of hyperparameters, and pick the one that its prediction holds the least value of loss indicator (e.g. RMSE. MSE )<br>
+Firstly, we do train models with different combinations of hyperparameters, and pick the one whose prediction holds the least value of loss indicator (e.g. RMSE. MSE )<br>
 
 After finding the optimized set of hyperparameters for a stock, we will train several models with it and pick the best one for predicting the future closing price during the trading session.
 
-### 4. Trade with different strategy
+### 4. Trade with different strategies
 
 There are three strategies we would like to try:
 <ol>
        <li>Swing Trade<br>
-       By using time lag prediction, the time lag equals how many days of predicted closing price we could gain.<br>
+       By using time lag prediction, the time lag equals how many days of the predicted closing price we could gain.<br>
        Usually, this time lag will be set to 8 days in this project because a large time lag may lead to an invalid pattern for the LSTM model to learn.
        With the set of the foreseeable closing price for 8 days, long/ short position could be opened and finished<br>
        </li>
@@ -67,7 +67,7 @@ There are three strategies we would like to try:
               If the opening price of the day is a certain percentage lower/higher than the predicted closing price, we open a long/short position respectively at the opening of the market and end the position at the end.
        </li>
        <li>High-Frequency Trade<br>
-       Unfortunately, since we pay no capital on this project, this is hard for us to gain price trend in high frequency as historical data to train our model.<br>
+       Unfortunately, since we pay no capital on this project, this is hard for us to gain the price trend in high frequency as historical data to train our model.<br>
        But the logic for predicting the price in high frequency could be achieved by using LSTM model with little adjustment
        </li>
 </ol>
