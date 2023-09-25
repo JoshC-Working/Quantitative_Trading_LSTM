@@ -1,0 +1,11 @@
+## Model Info 
+Stock:                     CTSH
+num of days of prediction: 8
+LSTM Cells for layer1:     128
+Epoches:                   3
+batch_size:                4
+window for prediction:     60
+---------------------------------------
+## Model Result
+Test set length:           1106
+RMSE:                      3.3280086994039815

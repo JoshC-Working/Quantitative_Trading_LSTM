@@ -1,0 +1,11 @@
+## Model Info 
+Stock:                     DHI
+num of days of prediction: 8
+LSTM Cells for layer1:     40
+Epoches:                   3
+batch_size:                2
+window for prediction:     45
+---------------------------------------
+## Model Result
+Test set length:           747
+RMSE:                      2.275946700331072

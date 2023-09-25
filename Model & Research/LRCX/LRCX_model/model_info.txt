@@ -1,0 +1,11 @@
+## Model Info 
+Stock:                     LRCX
+num of days of prediction: 8
+LSTM Cells for layer1:     128
+Epoches:                   3
+batch_size:                2
+window for prediction:     30
+---------------------------------------
+## Model Result
+Test set length:           749
+RMSE:                      34.70838302938187
