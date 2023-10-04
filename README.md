@@ -13,9 +13,13 @@ In this directory, we will show the process of how we train the best-fit LSTM mo
 You may visit any directory inside "Model & Research" to see how we gain the optimized model for a target stock. 
 
 ### 2. Resources
-A place to store the best models trained for every target stock. A function in "predict_data.py" is designed to gain the latest set of predicted closing price of a stock by accessing trained models here.
+A place to store the best models trained for every target stock. A function predict_data() in "predict_data.py" is designed to gain the latest set of predicted closing price of a stock by accessing trained models here.
 
-We want to train the model to fit the test data.
+### 3. ModelTrainer.ipynb
+In this file, I showed how to train N models simultaneously with multithreading in Python. When the set of hyperparameters that optimise the model the most is figure out, we would like to train a number of models with this set of hyperparameters, to find the one that performs the best. In this case, multithreading will be a good tool to trainq a number of models with the same set of hyperparameters. 
+
+### 4. predict_data.py
+predict_data() is a function that calls the model for each stock and then gets the predicted price of a stock for a certain number of days. Also, the function will be called during the process of algorithmic trading.
 
 ## Process 
 
