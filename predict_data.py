@@ -32,7 +32,7 @@ def prediction_set_building(interval, scaled_data):
 
 def predict_data(stock, interval, delay):
 
-    dataset = get_data("AAPL", interval, delay)
+    dataset = get_data(stock, interval, delay)
 
     # Scale the target closing price
     scaler = MinMaxScaler(feature_range=(0, 1))
@@ -59,4 +59,4 @@ def predict_data(stock, interval, delay):
     return predictions
 
 
-print(predict_data("DHI", 40, 8))
+print(predict_data("ON", 60, 8))
